@@ -1,0 +1,23 @@
+//Fibonacci series O(1) fib = ((1+sqrt(5))^n)/sqrt(5)
+
+import java.util.Scanner;
+class HelloWorld {
+    
+    public static int fib(int n)
+    {
+        double a = 0.0;
+        a = (1 + Math.sqrt(5))/2;
+        a = (Math.pow(a,n))/Math.sqrt(5);
+        int r = (int)a;
+        return r;
+    }
+    
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a = sc.nextInt();
+        System.out.println("Fibonacci of "+n+" is : "fib(a));
+    }
+    
+}
