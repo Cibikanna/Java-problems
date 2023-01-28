@@ -1,0 +1,17 @@
+//Swapping two varibles without third varible
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a first number:");
+        int a = sc.nextInt();
+        System.out.println("Enter a second number:");
+        int b = sc.nextInt();
+        System.out.println("\nBefore swaping:\n a = "+a+" b = "+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.print("After Swaping: \n a = "+a+" b = "+b);
+        
+    }
+}
